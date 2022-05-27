@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int a=78;
+	int *p = &a;
+	
+	printf("the address of the pointer to a is %x\n",&p);
+	printf("the address of  a is %x\n",&a);
+	printf("the value of a is %d\n", *p);
+	printf("the value of a is %d\n ", a);
+	return 0;
+	
+}
